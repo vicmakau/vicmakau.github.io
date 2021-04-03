@@ -31,7 +31,7 @@
 
         <!-- GetButton.io widget -->
     <script type="text/javascript">
-        /*(function () {
+        (function () {
             var options = {
                 whatsapp: "+254714760671", // WhatsApp number
                 call_to_action: "whatsapp me", // Call to action
@@ -42,16 +42,9 @@
             var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
             s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
             var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-        })();*/
+        })();
     </script>
-        <!-- /GetButton.io widget -->
-
-
-    <!--Floating WhatsApp css-->  
-    <link rel="stylesheet" href="floating-wpp.min.css">  
-    <!--Floating WhatsApp javascript-->  
-    <script type="text/javascript" src="floating-wpp.min.js"></script>
-
+    <!-- /GetButton.io widget -->
 
 </head> 
 
@@ -102,26 +95,6 @@
 
             
             <section class="section summary-section">
-                <!--Div where the WhatsApp will be rendered-->  
-                    <div id="WAButton">
-
-                        <script type="text/javascript">  
-                           $(function () {
-                                   $('#WAButton').floatingWhatsApp({
-                                       phone: '+254714760671', //WhatsApp Business phone number
-                                       headerTitle: 'Chat with us on WhatsApp!', //Popup Title
-                                       popupMessage: 'Hello, how can we help you?', //Popup Message
-                                       showPopup: true, //Enables popup display
-                                       buttonImage: '<img src="whatsapp.svg" />', //Button Image
-                                       //headerColor: 'crimson', //Custom header color
-                                       //backgroundColor: 'crimson', //Custom background button color
-                                       position: "right" //Position: left | right
-
-                                   });
-                               });
-                        </script>  
-
-                    </div>
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Personal Profile</h2>
                 <div class="summary">
                     <p>I am passionate about startups and entrepreneurship; building products that impact society and solve major problems in society </p>
